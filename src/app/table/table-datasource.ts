@@ -67,6 +67,8 @@ export class TableDataSource extends DataSource<TableItem> {
       this.sort.sortChange
     ];
 
+    
+
     // Set the paginators length
     this.paginator.length = this.data.length;
 
